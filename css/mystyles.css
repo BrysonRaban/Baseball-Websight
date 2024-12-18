@@ -1,0 +1,32 @@
+.bg-primary {
+    --bs-bg-opacity: 1;
+    background-color: #000037 !important
+  }
+  .bg-primary {
+    --bs-bg-opacity: 1;
+    background-color: #000037 !important
+  }
+  .bg-primary {
+    --bs-bg-opacity: 1;
+    background-color: #000037 !important
+  }
+  .bg-dark {
+    --bs-bg-opacity: 1;
+    background-color: #000037 !important
+  }
+
+
+    .text-primary {
+      --bs-text-opacity: 1;
+      color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  }
+
+  .text-primary {
+    --bs-text-opacity: 1;
+    color:aqua !important;
+}
+
+}
+#mainNav .navbar-nav .nav-item .nav-link.active {
+  color:aqua !important;
+}

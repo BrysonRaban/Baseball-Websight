@@ -1,0 +1,60 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #e0f7fa, #b2ebf2);  /* Light gradient background */
+    color: #333;
+    text-align: center;
+}
+
+/* Header styles */
+header {
+    background: #007BFF; /* Blue header background */
+    color: white;
+    padding: 1em 0;
+}
+
+/* Navigation bar */
+nav {
+    background: #333;  /* Dark gray navigation */
+    color: white;
+    padding: 0.5em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styles */
+main {
+    padding: 2em;
+    margin-top: 80px; /* Ensure there is enough space for the header */
+}
+
+/* Footer styles */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: relative; /* changed from absolute to relative */
+    bottom: 0;
+    width: 100%;
+}
+
+/* Fixing the image issue */
+img {
+    max-width: 100%; /* Ensure the image fits within its container */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 80px; /* Add margin to avoid overlap with the header */
+    display: block; /* Remove any default inline behavior */
+    margin-left: auto; /* Centering the image horizontally */
+    margin-right: auto; /* Centering the image horizontally */
+}
